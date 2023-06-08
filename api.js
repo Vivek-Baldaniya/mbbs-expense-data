@@ -630,5 +630,5 @@ const PORT = process.env.PORT || 8000;
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`API server is running on port ${port}`);
+  console.log(`API server is running on port ${PORT}`);
 });
