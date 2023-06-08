@@ -4,14 +4,12 @@ var cors = require("cors");
 
 app.use(cors());
 
-const router = express.Router();
-
-router.get("/", (req, res) => {
+app.get("/", (req, res) => {
   res.send("App is running...");
 });
 
 // Endpoint to retrieve the data
-router.get("/cost/data", (req, res) => {
+app.get("/cost/data", (req, res) => {
   const data = {
     India: {
       Private: {
