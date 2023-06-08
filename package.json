@@ -1,9 +1,9 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "main": "api.js",
+  "main": "index.js",
   "scripts": {
-    "start": "api.js"
+    "start": "index.js"
   },
   "author": "",
   "license": "ISC",
